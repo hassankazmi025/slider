@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+.deepOrange{
+    color: rgba(255,102,72,255);
+}
+
+.main{
+    background-image: url('../images/bgslider.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+}
+.main-slider{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+
+}
+.leftRight{
+    /* border: 1px solid red; */
+    width: 50%;
+    padding:1rem;
+    
+}
+.left{
+    margin-right: 44px;
+}
+
+.left h6{
+    font-size: 20px;
+    margin-top: 60px;
+}
+.left h1{
+    margin-top: 30px;
+}
+.main-img{
+    width:100%;
+    display:flex;
+    align-items:end;
+    justify-content: space-between;
+
+}
+.left .img{
+    width: 30%;
+    margin-top: 50px;
+
+}
+.left .img_mini{
+    width: 100%;
+    margin-right:10px;
+}
+.img_mini img{
+    border-radius: 30px 0px 30px 0px;
+    width:100%;
+    height:100%;
+}
+.img h5{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.right{
+    ali
+}
+
+.right img{
+
+    margin-bottom: 80px;
+}
+.slider{
+    padding-bottom: 60px;
+}
+.min-slider{
+    width:48%;
+}
+.rating span{
+   margin-left: 20px;
+}
+
+@media only screen and (max-width: 999px) {
+    .main-slider{
+
+        flex-direction: column;
+    
+    }
+    .leftRight{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+        
+    .left{
+        margin-right: 0px;
+    }   
+    .left h6{
+        text-align:center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .left h1{
+        margin-top: 20px;
+        text-align:center;
+        font-size:30px;
+    }
+    .left .img{
+        margin-top: 20px;
+    
+    }
+    .img h5{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .img p{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .right p{
+        text-align:center;
+        font-size: 20px;
+    }
+    
+    .right img{
+    
+        display:none;
+    }
+    .min-slider{
+        width:100%;
+    }
+    
+    
+}
+
